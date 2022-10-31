@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>招租网站</title>
+    <script>
+        function show1(q) {
+        let x = document.getElementById("xianshi1")
+        x.style.display='block'
+       switch(q){
+        case 1 :
+            x.src="/招租网站图片库/1.PNG";
+            break;
+        case 2 :
+            x.src="/招租网站图片库/2.PNG";
+            break;
+        case 3 :
+            x.src="/招租网站图片库/3.PNG";
+            break;
+        case 4 :
+            x.src="/招租网站图片库/4.PNG";
+            break;
+         case 5 :
+            x.src="/招租网站图片库/5.PNG";
+            break;
+        case 6 :
+            x.src="/招租网站图片库/6.PNG";
+            break;
+        case 7 :
+            x.src="/招租网站图片库/7.PNG";
+            break;
+        case 8 :
+            x.src="/招租网站图片库/8.PNG";
+            break;
+       }}
+        function back1(){
+       let x = document.getElementById("xianshi1")
+        x.style.display='none'
+        }
+    </script>
+</head>
+<body style="background-color: rgb(216, 230, 235);z-index: auto;">
+    <qq style="
+  z-index: auto;
+    display: block;  
+    min-width:50px  ;
+   position:absolute; 
+    left: 10%;
+    right:10% ;
+    top: 0;
+    bottom: 0;
+    background:linear-gradient(pink,lightblue);
+    text-align: center;
+    overflow: auto;" >
+    <div >
+        <img style= display:none; id="tle"  src="/招租网站图片库/捕获.PNG" >
+    </div>
+<h1 style="
+text-shadow: 0px 1px 2px;
+color:rgba(240, 101, 189, 0.599);
+font-size:50px;
+margin: 0px;
+">房租招租 </h1>
+<h2
+style="
+ padding-left:2cm;
+ text-align: left;
+ font-size: 25px;
+margin: 0px;">
+    地址：佛山市桂城街道夏东三洲
+</h2> <!--地址说明-->
+<ol style="
+text-align:left;
+font-size:20px;"
+>
+    <li><strong>周边环境</strong><ol>
+        <li>市场：<mm onmouseover="show1(1)" onmouseout="back1(this)"> 五房沙市场    </mm> ,  
+                  <mm  onmouseover="show1(2)" onmouseout="back1(this)"> 东方市场 </mm>,
+        </li>
+        <li>学校：<mm  onmouseover="show1(3)" onmouseout="back1(this)"> 映月六小 </mm>,
+                  <mm  onmouseover="show1(4)" onmouseout="back1(this)"> 南海机关幼儿园 </mm>,
+        </li>
+        <li>商场：<mm onmouseover="show1(5)" onmouseout="back1(this)"> 映月湖环宇城 </mm>,
+                  <mm onmouseover="show1(6)" onmouseout="back1(this)">万科广场 </mm>,
+        </li>
+        <li>公交站：<mm onmouseover="show1(7)" onmouseout="back1(this)"> 夏东站 </mm>,
+                    <mm onmouseover="show1(8)" onmouseout="back1(this)"> 夏东三洲站</mm>,
+        </li>
+    </ol></li>
+    <img src="" alt="wufangsha" style="height:500px;
+     width:500px;display: none;" id="xianshi1" >
+     
+    <li><strong>室内环境</strong>
+        <ol>
+            <li>单间</li>
+            <li>一厅一房</li>   
+        </ol>
+    </li>
+</ol>
+<bujuhezi>
+<h2 style="padding-left: 2cm;">单间环境</h2>   
+<div
+style="
+height:200px;
+width: auto;
+max-width: 800px;
+overflow: auto;
+overflow-x: hidden;
+margin: 0 auto;
+border: solid 5px rgb(240, 159, 226, 0.5);
+">
+    <img src="/11111.png" alt="tu1"  >
+    <img src="/2222.png" alt="tu2"   >
+    <img src="/3333.png" alt="tu3" >
+ </div><!--布局1图片-->
+ <h2 style="padding-left: 2cm;">一厅一房环境</h2>
+ <div
+style="
+height:200px;
+width: auto;
+max-width: 800px;
+overflow: auto;
+overflow-x: hidden;
+margin: 0 auto;
+margin-bottom: 3cm;
+border: solid 5px rgb(240, 159, 226, 0.5);
+
+">
+    <img src="/11111.png" alt="tu1"  >
+    <img src="/2222.png" alt="tu2"   >
+    <img src="/3333.png" alt="tu3" >
+ </div><!--布局2图片-->
+ </bujuhezi>
+ <xiakuang>
+    <p>联系方式（微信）：weixin123</p>
+ <a href="/new.html" 
+    style="
+     text-align:center;
+     padding-top:30px;">我的网站 
+  </a>
+  <p style="text-align:center;">公安备案号：013346431 </p>
+ </xiakuang>
+ </qq>
+ </body>
+ </html>
